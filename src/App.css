@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+*{
+  margin:0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font{
+  font-family: 'Raleway', sans-serif;
+  font-weight:200;  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.color{
+  color:#27A365;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input{
+  color:#5C5C5C;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
 }
-
-.App-link {
-  color: #61dafb;
+.search-container {
+width:360px;
+height: 42px;
+border-radius:21px;
+background-color:#F2F2F2;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-icon{
+margin-top:4px;
+margin-inline:15px;
+}
+/* font-family: 'Inter', sans-serif; */
+.dropdown{
+  margin-top:-5px;
+  /* background-color: red; */
+  height:25px;
+  padding-block:auto;
+}
+.create-account-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight:bold;
+  color: #2E2E2E;
+}
+.create-account-text-span {
+  color: #2F6CE5;
+}
+@media (max-width:360px) {
+.large {
+    display: none!important;
+} 
 }
