@@ -44,3 +44,6 @@ margin-inline:15px;
     display: none!important;
 } 
 }
+.search-container input{
+  outline: none!important;
+}
